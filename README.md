@@ -26,6 +26,10 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
-# Screen shot
+# Screenshot
 
 ![TeamGenerator Screenshot](https://user-images.githubusercontent.com/92954684/151730448-6e24a7d8-41b2-46b4-be0d-76bed38e8dfc.png)
+
+# Video Link
+
+https://watch.screencastify.com/v/ArsWFPdFie1koJK2Jvq3
