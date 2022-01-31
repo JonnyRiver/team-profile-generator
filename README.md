@@ -8,9 +8,9 @@ SO THAT I have quick access to their emails and GitHub profiles
 
 # Acceptance Criteria
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+GIVEN a command-line application that accepts user input </br>
+WHEN I am prompted for my team members and their information </br>
+THEN an HTML file is generated that displays a nicely formatted team roster based on user input </br>
 WHEN I click on an email address in the HTML
 THEN my default email program opens and populates the TO field of the email with the address
 WHEN I click on the GitHub username
