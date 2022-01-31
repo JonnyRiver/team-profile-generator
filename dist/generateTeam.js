@@ -1,6 +1,7 @@
 const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer')
 const Intern = require('../lib/Intern')
+const Employee = require('../lib/Employee')
 
 
 function generateCards(team) {
@@ -29,12 +30,12 @@ let generateManagerCard = (Manager) => {
   return `
   <div class="card m-1 shadow" style="width: 25rem">
     <div class='card-header'>
-      <h3 class="card-title">${Manager.getName()}</h3>
-      <h2 class="card-text"><i class="fa fa-coffee"></i>${Manager.getRole()}</h2>
+      <h3 class="card-title; text-center">${Manager.getId()}</h3>
+      <h2 class="card-text; text-center"><i class="fa fa-coffee"></i>${Manager.getRole()}</h2>
     </div>
     <div class="card-body">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">ID: ${Manager.getId()}</li>
+        <li class="list-group-item">ID: ${Manager.getName()}</li>
         <li class="list-group-item">Email: ${Manager.getEmail()}</li>
         <li class="list-group-item">Office Number: ${Manager.getOfficeNumber()}</li>
       </ul>
@@ -47,14 +48,14 @@ let generateEngineerCard = (Engineer) => {
   return `
   <div class="card m-1 shadow" style="width: 25rem">
     <div class='card-header'>
-      <h3 class="card-title">${Engineer.getName()}</h3>
-      <h2 class="card-text"><i class="fa fa-laptop"></i> ${Engineer.getRole()}</h2>
+      <h3 class="card-title; text-center">${Engineer.getId()}</h3>
+      <h2 class="card-text; text-center"><i class="fa fa-laptop"></i> ${Engineer.getRole()}</h2>
     </div>
     <div class="card-body">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">ID: ${Engineer.getId()}</li>
+        <li class="list-group-item">ID: ${Engineer.getName()}</li>
         <li class="list-group-item">Email: ${Engineer.getEmail()}</li>
-        <li class="list-group-item">GitHub: ${Engineer.getGithub}</li>
+        <li class="list-group-item">GitHub:<a href="https://github.com/${Engineer.getGithub()}" target="_blank" rel="noopener noreferrer">${Engineer.getGithub()}</a></li>
       </ul>
     </div>
   </div>
@@ -65,12 +66,12 @@ let generateInternCard = (Intern) => {
   return `
   <div class="card m-1 shadow" style="width: 25rem">
     <div class='card-header'>
-      <h3 class="card-title">${Intern.getName()}</h3>
-      <h2 class="card-text"><i class="fa fa-graduation-cap"></i> ${Intern.getRole()}</h2>
+      <h3 class="card-title; text-center">${Intern.getId()}</h3>
+      <h2 class="card-text; text-center"><i class="fa fa-graduation-cap"></i> ${Intern.getRole()}</h2>
     </div>
     <div class="card-body">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">ID: ${Intern.getId()}</li>
+        <li class="list-group-item">ID: ${Intern.getName()}</li>
         <li class="list-group-item">Email: ${Intern.getEmail()}</li>
         <li class="list-group-item">School: ${Intern.getSchool()}</li>
       </ul>
