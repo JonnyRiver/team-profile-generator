@@ -29,6 +29,8 @@ THEN I exit the application, and the HTML is generated
 # Screenshot
 
 ![TeamGenerator Screenshot](https://user-images.githubusercontent.com/92954684/151730448-6e24a7d8-41b2-46b4-be0d-76bed38e8dfc.png)
+![Screenshot notetaker2](https://user-images.githubusercontent.com/92954684/152713546-d26bad3d-95fe-4c55-838c-6879da534a9e.png)
+
 
 # Video Link
 
